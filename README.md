@@ -13,6 +13,9 @@ Finalmente para habilitar los servicios se deben reiniciar los contenedores o ej
 En el caso del dockerfile de mariaDB es necesario ejecutar lo siguiente dentro del bash del contenedor:
 
 $ systemctl start httpd
+
 $ systemctl start mariadb
+
 $ mysqladmin -u root password {{password}}
+
 $ mariadb-secure-installation
