@@ -1,4 +1,4 @@
-# Custom-dockerfiles-templates
+# custom-dockerfiles-templates
 
 Algunas plantillas dockerfiles para crear imagenes docker basadas en Centos 7 con systemd habilitado.
 
